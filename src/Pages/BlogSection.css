@@ -1,0 +1,14 @@
+/* BlogSection.css */
+
+/* Apply the custom font for the section */
+.blog-section-container {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Ensure images maintain their aspect ratio visually */
+.article-image {
+  width: 100%;
+  height: 12rem; /* h-48 equivalent */
+  object-fit: cover;
+  border-radius: 0.5rem 0.5rem 0 0; /* rounded-t-xl */
+}

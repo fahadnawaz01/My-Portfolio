@@ -1,0 +1,18 @@
+/* Custom CSS for ProjectList component */
+
+/* Ensure the custom font is applied if it's not global */
+/* body {
+    font-family: 'Lato', sans-serif; 
+} */
+
+/* You can define the structure and responsive padding/margins here, 
+   but it's generally cleaner to let Tailwind handle it in the JSX.
+   For simplicity and compatibility with your existing work, we'll keep 
+   most of the responsive layout in the JSX.
+*/
+
+/* If you need to enforce a specific font-family if Tailwind isn't configured for it: */
+.project-card p,
+.project-card a {
+  font-family: "Lato", sans-serif;
+}

@@ -1,0 +1,159 @@
+.hero-container {
+  /* 👇 CHANGE THIS TO transparent */
+  background-color: transparent;
+
+  min-height: 100vh;
+  padding: 20px 50px;
+  /* ... other styles ... */
+}
+/* --- Navigation Bar --- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* DESKTOP WIDTH: The 7xl width should be applied to the Tailwind class in JSX */
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #333333;
+}
+
+.logo-icon {
+  /* Styles for the small 'S' shape logo in the screenshot */
+  width: 50px;
+  height: 40px;
+}
+
+.nav-links a {
+  margin-left: 25px;
+  color: #333333;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* --- Hero Content --- */
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(
+    100vh - 100px
+  ); /* Adjust height to fill the screen minus header/padding */
+  text-align: center;
+}
+
+.profile-photo-wrapper {
+  margin-bottom: 40px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.headline {
+  font-size: 40px;
+  font-weight: 800;
+  color: #333333;
+  margin-bottom: 40px;
+}
+.headline strong {
+  font-weight: 800; /* Ensure the bolded text looks the same */
+}
+
+/* --- CTA Buttons --- */
+.cta-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.cta-button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.cta-button.primary {
+  background-color: #d8b4fe; /* Soft Lavender/Light Purple */
+  color: white;
+}
+.cta-button.primary:hover {
+  background-color: #c084fc;
+}
+
+.cta-button.secondary {
+  background-color: #e5e5e5; /* Light Gray */
+  color: #333333;
+}
+.cta-button.secondary:hover {
+  background-color: #d4d4d4;
+}
+
+@media (max-width: 639px) {
+  /* 1. NAVIGATION: Hide the navigation links */
+  .nav-links {
+    /* Set display none or collapse the links. 
+       We must override the flex that Tailwind is applying on the outer nav. */
+    display: none !important;
+  }
+
+  /* 2. PAGE LAYOUT/PADDING: Adjust overall container padding */
+  .hero-container {
+    padding: 20px 10px; /* Reduced horizontal padding for mobile */
+    min-height: auto; /* Allow height to collapse to content size */
+  }
+
+  /* 3. HEADLINE: Make headline smaller */
+  .headline {
+    font-size: 28px; /* Significantly smaller than the desktop 40px */
+    margin-bottom: 20px; /* Reduced margin */
+  }
+
+  /* 4. DESCRIPTION: Make description smaller */
+  .max-w-2xl {
+    /* Targeting the paragraph's max-width class to control its sizing */
+    font-size: 14px; /* Smaller font size for body text */
+    padding: 0 10px; /* Add slight horizontal padding */
+    margin-bottom: 30px;
+  }
+
+  /* 5. PROFILE PHOTO: Fix ellipse shape and size */
+  .profile-photo-wrapper {
+    /* Setting equal width and height ensures a perfect circle */
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+
+  /* 6. BUTTONS: Make buttons smaller and stacked */
+  .cta-buttons {
+    flex-direction: column; /* Stacks the buttons vertically */
+    gap: 10px; /* Reduced gap */
+    width: 100%; /* Make the button container take full width */
+    max-width: 300px; /* Prevents stretching too wide on very narrow screens */
+  }
+
+  /* Make individual buttons stretch to the width of the container */
+  .cta-buttons a {
+    width: 100%;
+    min-width: auto;
+    max-width: none;
+  }
+}
