@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.7a8276f6.css",
+    "main.js": "/My-Portfolio/static/js/main.c1362d46.js",
+    "static/js/453.6264690d.chunk.js": "/My-Portfolio/static/js/453.6264690d.chunk.js",
+    "static/media/resume_scorer.png": "/My-Portfolio/static/media/resume_scorer.6382ff818abc09f71774.png",
+    "static/media/graph.gif": "/My-Portfolio/static/media/graph.be94fde69415d12e6ceb.gif",
+    "static/media/wordpress.png": "/My-Portfolio/static/media/wordpress.e02aa8299be6a65ea823.png",
+    "static/media/fahadh_nawaz_resume.pdf": "/My-Portfolio/static/media/fahadh_nawaz_resume.551670a55559c3373bf6.pdf",
+    "static/media/resume_scorer_architecture.png": "/My-Portfolio/static/media/resume_scorer_architecture.8a73e75c040afa932037.png",
+    "static/media/csg.webp": "/My-Portfolio/static/media/csg.571825bafb4444a95168.webp",
+    "static/media/logo.png": "/My-Portfolio/static/media/logo.661a490d9bf88f66d29b.png",
+    "static/media/cat.jpg": "/My-Portfolio/static/media/cat.4f82630d5a4f622b20e6.jpg",
+    "static/media/cloudformation.webp": "/My-Portfolio/static/media/cloudformation.dfb698120cdaee551bb5.webp",
+    "static/media/textract.webp": "/My-Portfolio/static/media/textract.d38f2460a797bc547261.webp",
+    "static/media/serverless.webp": "/My-Portfolio/static/media/serverless.1d1bb597949f639e35dc.webp",
+    "static/media/static.webp": "/My-Portfolio/static/media/static.0592e5a053889c52ef33.webp",
+    "index.html": "/My-Portfolio/index.html",
+    "main.7a8276f6.css.map": "/My-Portfolio/static/css/main.7a8276f6.css.map",
+    "main.c1362d46.js.map": "/My-Portfolio/static/js/main.c1362d46.js.map",
+    "453.6264690d.chunk.js.map": "/My-Portfolio/static/js/453.6264690d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a8276f6.css",
+    "static/js/main.c1362d46.js"
+  ]
+}
