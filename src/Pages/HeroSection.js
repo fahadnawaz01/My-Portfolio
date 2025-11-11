@@ -1,7 +1,7 @@
 import React from "react";
 import "./HeroSection.css";
 import assetImage from "../Pictures/cat.jpg";
-import assetDoc from "../Pictures/fahadh_nawaz_resume.pdf";
+import assetDoc from "../Pictures/fahad updated resume (1).pdf";
 import logoImage from "../Pictures/logo.png";
 
 const HeroSection = () => {
