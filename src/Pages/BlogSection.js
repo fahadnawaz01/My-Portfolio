@@ -6,9 +6,23 @@ import cloudformation from "../Pictures/cloudformation.webp";
 import textract from "../Pictures/textract.webp";
 import serverless from "../Pictures/serverless.webp";
 import staticImage from "../Pictures/static.webp";
+import bedrock_agent from "../Pictures/bedrock agent blog.png";
 
 // --- Data Model for Blog Articles (Updated with 'url' property) ---
 const articleData = [
+  {
+    id: 1,
+    title:
+      "Amazon Bedrock Agents: An Exploration of the Architecture and Working Mechanism",
+    date: "October 12, 2025",
+    readTime: "4 min read",
+    excerpt:
+      "detailed look into the internal architecture and ReAct-based workflow of a simple Amazon Bedrock Agent, explaining how its components (Claude 3 Haiku FM, Knowledge Base, and Action Group) collaborate to manage project data and execute specific tasks.",
+    imageUrl: bedrock_agent,
+    imageAlt: "Terraform AWS WordPress",
+    // ADDED: Placeholder URL for the Terraform blog post
+    url: "https://www.linkedin.com/pulse/terraforming-cloud-building-wordpress-site-terraform-fahad-nawaz-oijwf/?trackingId=TLEfClaPl8EuJ8xpdT3rGA%3D%3D",
+  },
   {
     id: 1,
     title: "Terraforming the Cloud: Building a WordPress Site with Terraform",
