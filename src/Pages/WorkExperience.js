@@ -142,6 +142,7 @@ const WorkExperience = () => {
         "Enhanced workflow efficiency by developing complex SQL queries and JavaScript/Postman scripts for automated configuration and transaction data analysis.",
       ],
       technologies: [
+        "AWS (S3, Kinesis, CloudWatch, IAM)",
         "SQL",
         "Postman",
         "Configuration Management",
